@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="5dp"
+        android:clickable="false"
+        app:cardBackgroundColor="#ff5252"
+        android:layout_below="@id/userPhone"
+        app:cardCornerRadius="5dp"
+        android:id="@+id/cardmail"
+        app:cardElevation="5dp">
+
+        <TextView
+            android:id="@+id/gmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            android:clickable="false"
+            android:drawableLeft="@drawable/email"
+            android:layout_marginLeft="5dp"
+            android:text="Gmail"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+    </android.support.v7.widget.CardView>
+    <EditText
+        android:id="@+id/email_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter password of above mail"
+        android:layout_below="@+id/cardmail"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_anous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_done_black_24dp"
+        app:elevation="10dp"
+        android:layout_below="@+id/email_password"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:fabSize="normal" />
+
+</RelativeLayout>

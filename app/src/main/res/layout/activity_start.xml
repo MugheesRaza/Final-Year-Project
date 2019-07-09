@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient"
+    tools:context=".StartActivity">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/alumniportal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:text="Comsats Alumni Portal"
+        android:textColor="#fff"
+        android:layout_marginBottom="50dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@drawable/btn_outline" />
+    <Button
+        android:id="@+id/register"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Create Account"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/ic_person_add_black_24dp"
+        android:background="@drawable/btn_outline" />
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Admin"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/ic_business_center_black_24dp"
+        android:background="@drawable/btn_outline" />
+
+</LinearLayout>

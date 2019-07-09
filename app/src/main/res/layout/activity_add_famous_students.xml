@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    tools:context=".addFamousStudents">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/student_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:clickable="true"
+           app:civ_border_color="@color/colorPrimaryDark"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/profile_image"
+            android:layout_marginTop="30dp" />
+
+        <ImageButton
+            android:id="@+id/imagestudent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="126dp"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/ic_photo_camera_black_24dp" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:hint="Enter Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/userjob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username"
+            android:hint="Current Job" />
+
+        <EditText
+            android:id="@+id/user_job_dec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userjob"
+            android:minLines="2"
+            android:hint="Job Description" />
+
+        <EditText
+            android:id="@+id/user_gpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_job_dec"
+            android:inputType="numberDecimal"
+            android:hint="Enter CGPA" />
+        <EditText
+            android:id="@+id/user_gradu_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Year of Graduation"
+            android:layout_below="@id/user_gpa"
+            android:inputType="number"
+            />
+        <EditText
+            android:id="@+id/user_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:layout_below="@id/user_gradu_year"
+            android:inputType="text"
+            />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/add_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_done_black_24dp"
+            app:elevation="10dp"
+            android:layout_below="@id/user_city"
+            app:fabSize="normal" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "520628084795",
+    "firebase_url": "https://listview-f4b92.firebaseio.com",
+    "project_id": "listview-f4b92",
+    "storage_bucket": "listview-f4b92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520628084795:android:831af72b784cad59",
+        "android_client_info": {
+          "package_name": "com.example.mughees.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520628084795-ak40p1e2io506n49isdjfnfaoj41bg3i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mughees.chat_app",
+            "certificate_hash": "ccffebd0a9fc3c1dacf847bc86e9e8df61c27e68"
+          }
+        },
+        {
+          "client_id": "520628084795-dqenaa4n516rrdcn5m23pq229oga74p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhwM1gOvqRbKZ62icyF_kJz7g_8Mt17Xs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520628084795-dqenaa4n516rrdcn5m23pq229oga74p9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520628084795:android:c13cc38b7a132528",
+        "android_client_info": {
+          "package_name": "com.example.mughees.fyp_finalyearproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520628084795-dqenaa4n516rrdcn5m23pq229oga74p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhwM1gOvqRbKZ62icyF_kJz7g_8Mt17Xs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520628084795:android:f25f546a096a0fda",
+        "android_client_info": {
+          "package_name": "com.example.mughees.listview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520628084795-d2scmub8onol98ppeg4mdulrcoqbh966.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mughees.listview",
+            "certificate_hash": "ccffebd0a9fc3c1dacf847bc86e9e8df61c27e68"
+          }
+        },
+        {
+          "client_id": "520628084795-dqenaa4n516rrdcn5m23pq229oga74p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhwM1gOvqRbKZ62icyF_kJz7g_8Mt17Xs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520628084795-dqenaa4n516rrdcn5m23pq229oga74p9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

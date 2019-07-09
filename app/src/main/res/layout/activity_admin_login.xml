@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".Admin_activity_login">
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginBottom="50dp"
+        android:text="Welcome to Admin Panel"/>
+    <EditText
+        android:id="@+id/admin_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter key"
+        android:layout_below="@id/welcome"
+        android:fontFamily="sans-serif-thin"
+        android:layout_margin="10dp"  />
+
+    <EditText
+        android:id="@+id/admin_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:fontFamily="sans-serif-thin"
+        android:layout_below="@+id/admin_key"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/ic_done_black_24dp"
+        app:elevation="10dp"
+        app:fabSize="normal" />
+    <TextView
+        android:id="@+id/changekey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change key and password "
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:fontFamily="sans-serif-thin"
+        android:layout_below="@+id/admin_pass"/>
+</RelativeLayout>

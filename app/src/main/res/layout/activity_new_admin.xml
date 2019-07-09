@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".newAdmin">
+
+    <EditText
+        android:id="@+id/admin_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:fontFamily="sans-serif-thin"
+        android:hint="Enter old key" />
+
+    <EditText
+        android:id="@+id/admin_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter old password"
+        android:fontFamily="sans-serif-thin"
+        android:layout_below="@+id/admin_key"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+
+        />
+
+    <EditText
+        android:id="@+id/admin_new_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="189dp"
+        android:fontFamily="sans-serif-thin"
+        android:hint="Enter new key" />
+
+    <EditText
+        android:id="@+id/admin_new_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter new password"
+        android:fontFamily="sans-serif-thin"
+        android:layout_below="@+id/admin_new_key"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/btn_outlinedark"
+        android:drawablePadding="5dp"
+        android:text="Login"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+
+</RelativeLayout>
